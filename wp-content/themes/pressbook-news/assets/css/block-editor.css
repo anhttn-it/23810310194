@@ -1,0 +1,14 @@
+.editor-styles-wrapper.editor-styles-wrapper {
+	background: #fff;
+	color: #404040;
+}
+
+.editor-styles-wrapper.editor-styles-wrapper a {
+	color: #537cff;
+}
+
+.editor-styles-wrapper.editor-styles-wrapper a:hover,
+.editor-styles-wrapper.editor-styles-wrapper a:focus,
+.editor-styles-wrapper.editor-styles-wrapper a:active {
+	color: #ff4056;
+}
