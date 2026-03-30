@@ -117,3 +117,16 @@ add_filter( 'pressbook_welcome_menu_title', 'pressbook_news_welcome_menu_title' 
  * Recommended plugins.
  */
 require get_stylesheet_directory() . '/inc/recommended-plugins.php';
+
+function add_google_analytics_code() {
+?>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C3CHCTQRS4"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-C3CHCTQRS4');
+</script>
+<?php
+}
+add_action('wp_head', 'add_google_analytics_code');
