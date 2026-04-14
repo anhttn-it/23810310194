@@ -3,7 +3,7 @@
  * Plugin Name: LearnPress Stats Dashboard
  * Description: Hiển thị bảng thống kê tổng quan của LearnPress ngoài Dashboard và Frontend.
  * Version: 1.0
- * Author: NhatMinh
+ * Author: ngocanh
  */
 if ( ! defined( 'ABSPATH' ) ) {
     exit; 
